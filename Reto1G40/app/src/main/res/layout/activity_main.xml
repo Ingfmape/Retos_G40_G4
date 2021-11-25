@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-255dp"
+        android:background="@color/purple_700">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvProducto1"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/arbolnavidad" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvwNombreProducto1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Arbol de Navidad" />
+
+                <TextView
+                    android:id="@+id/tvwPrecioProducto1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$ 180.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnComprar1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Añadir" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvProducto2"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/estrella" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvwNombreProducto2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Estrella para Arbol  de Navidad" />
+
+                <TextView
+                    android:id="@+id/tvwPrecioProducto2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$ 20.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnComprar2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Añadir" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvProducto3"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/campana" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvwNombreProducto3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Campana de Navidad" />
+
+                <TextView
+                    android:id="@+id/tvwPrecioProducto3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$ 30.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnComprar3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Añadir" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvProducto4"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/gorro" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvwNombreProducto4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Gorro de Navidad" />
+
+                <TextView
+                    android:id="@+id/tvwPrecioProducto4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$ 15.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnComprar4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Añadir" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvProducto5"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/girnalda" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvwNombreProducto5"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Girnalda en Corona" />
+
+                <TextView
+                    android:id="@+id/tvwPrecioProducto5"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$ 60.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnComprar5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Añadir" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
